@@ -11,13 +11,13 @@ class PuestosPersonal extends Model
 
     protected $table = 'puestos_personal';
 
-    // Especificar la clave primaria
+    
     protected $primaryKey = 'rfc';
 
-    // Indicar que la clave primaria no es un número autoincrementable
+    
     public $incrementing = false;
 
-    // Definir los campos que son asignables en masa
+    
     protected $fillable = [
         'rfc',
         'clave_puesto',
